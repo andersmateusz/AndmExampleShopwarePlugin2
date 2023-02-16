@@ -1,0 +1,18 @@
+{
+  "name": "andm/example-plugin-0",
+  "description": "Skeleton plugin",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AndmExamplePlugin0\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "AndmExamplePlugin0\\AndmExamplePlugin0",
+    "label": {
+      "de-DE": "Skeleton plugin",
+      "en-GB": "Skeleton plugin"
+    }
+  }
+}
